@@ -1,4 +1,4 @@
-package com.microservices.common.error;
+package com.rest_rpg.common.error;
 
 import jakarta.validation.constraints.NotBlank;
 

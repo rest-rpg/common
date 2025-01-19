@@ -1,4 +1,4 @@
-package com.microservices.common.error;
+package com.rest_rpg.common.error;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
