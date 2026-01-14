@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rest_rpg.common</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
     <name>common</name>
     <description>common</description>
@@ -19,7 +19,7 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
+            <id>nexus</id>
             <url>https://nexus.ms-repos.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
