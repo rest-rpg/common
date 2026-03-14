@@ -4,13 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rest_rpg.common</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>common</name>
     <description>common</description>
 
     <modules>
         <module>errors</module>
+        <module>feign</module>
     </modules>
 
     <properties>
@@ -23,4 +24,11 @@
             <url>https://nexus.ms-repos.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-releases</id>
+            <url>https://nexus.ms-repos.com/repository/maven-releases/</url>
+        </repository>
+    </repositories>
 </project>
