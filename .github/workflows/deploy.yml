@@ -24,7 +24,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          server-id: nexus
+          server-id: nexus-releases
           server-username: NEXUS_USERNAME
           server-password: NEXUS_PASSWORD
 
